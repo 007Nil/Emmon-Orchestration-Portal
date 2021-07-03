@@ -1,0 +1,15 @@
+{
+  "name": "emmonorch_portal_be",
+  "version": "1.0.0",
+  "description": "Express Backend For React Front End EmmonOrch",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Sagnik Sarkar",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}
