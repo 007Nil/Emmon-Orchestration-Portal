@@ -1,6 +1,13 @@
 const express = require('express');
 const { exec } = require('child_process')
 const app = express();
+const cors = require('cors')
+
+app.use(
+    cors({
+        origin: "http://10.8.40.50:3000"
+    })
+)
 
 app.get('/get_active_mom_data', (req, res) => {
 
